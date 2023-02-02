@@ -102,9 +102,10 @@ console.log('After reversing the array order, the new array is:', favFoods);
 let arrayString = `My favorite foods are: ${favFoods[3]} and ${favFoods[2]} and ${favFoods[1]} and ${favFoods[0]}`;
 console.log(arrayString);
 
-
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+let newArray = favFoods.concat(animalArray);
+console.log('The new combined array is:', newArray);
