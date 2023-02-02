@@ -91,7 +91,10 @@ console.log('The updated favorite food list is now:', favFoods);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
-
+favFoods.sort();
+console.log('After placing it in alphabetical order, the new array is:', favFoods);
+favFoods.reverse();
+console.log('After reversing the array order, the new array is:', favFoods);
 
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
