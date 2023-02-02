@@ -99,6 +99,8 @@ console.log('After reversing the array order, the new array is:', favFoods);
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
+let arrayString = `My favorite foods are: ${favFoods[3]} and ${favFoods[2]} and ${favFoods[1]} and ${favFoods[0]}`;
+console.log(arrayString);
 
 
 // 4.h (STRETCH) TODO: Make a new array that combines 
